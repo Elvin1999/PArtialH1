@@ -12,7 +12,7 @@ namespace ConsoleApp15
         public string BankName { get; set; }
         public double Money { get; set; } = 1000;
 
-        partial void UpdateAccount();
+        partial void UpdateAccount(); 
         partial void TransferMoney(int money);
 
     }
